@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>TIP CALCULATOR</h1>
+    <div class="wrapper">
+      <p>Bill Amount</p>
+      <input type="text" id="amount" placeholder="Amount to be paid" /> ₹
+      <p>How was the service ?</p>
+      <select id="services">
+        <option>select</option>
+        <option value="0.20">20% - Excellent</option>
+        <option value="0.10">10% - Good</option>
+        <option value="0.05">5% - Not So Good</option>
+      </select>
+      <p>Total number of people</p>
+      <input type="text" id="persons" placeholder="Number of people sharing the bill" />
+      <button id="calculate">Calculate</button>
+    </div>
+    <div class="tip">
+      <p>Tip Amount</p>
+      <p>
+        <span id="total">0</span> <span>₹ each</span>
+      </p>
+    </div>
+  </div>
+
+  <script src="./script.js" defer></script>
+</body>
+
+</html>
